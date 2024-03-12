@@ -1,0 +1,31 @@
+@media screen and (max-width:1005px){
+    .menu{
+        display: none;
+    }
+    .navbar{
+        position: absolute;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .tex{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .tex p{
+        text-align: center;
+    }
+    .img{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .whats{
+        display: none;
+    }
+    .cards{
+        width: 100%;
+    }
+}

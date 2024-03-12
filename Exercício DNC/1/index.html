@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>execício Dnc 1</title>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Ultimas Edições</a>
+            <a href="#">Requisitos para Participar</a>
+        </div>
+        <div class="login">
+            <a href="#">Login</a>
+        </div>
+    </nav>   
+    <header>
+        <div class="texto">
+            <h1>BOOTCAMO DNC</h1>
+            <p>Esse será um evento exclusivo para todos os alunos da <b>DNC</b>, que querem <mark><b>acelerar a carreira</b></mark> com uma semana intensiva de conteúdo de mercado entre <mark><b>BACK-END, FRONT-END & BANCO DE DADOS.</b></mark></p>
+        </div>
+    </header>
+
+    <section>
+        <div class="dados">
+            <label for="nome"> Nome:</label> <br>
+            <input id="nome" class="caixa" type="text" name="nome" placeholder="Insira seu nome aqui" /><br />
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input id="sobrenome" class="caixa" type="text" name="sobrenome" placeholder="Insira seu sobrenome aqui"  /><br />
+            <div class="bot">
+                <p>Área de interesse:</p>
+            
+                <input id="front" class="bot" type="checkbox">
+                <label for="front">Front-End</label>
+                
+                <input id="back" class="bot" type="checkbox">
+                <label for="back">Back-End</label>
+                
+                <input id="bc_dados" class="bot" type="checkbox">
+                <label for="bc_dados">Banco de Dados</label>
+            <br>
+            </div>
+            <label for="email">E-mail: </label><br>
+            <input id="email" class="caixa" type="email" name="email_usuario" placeholder="Insira seu e-mail aqui" /><br />
+            <label for="telefone">Telefone:</label><br>
+            <input id="telefone" class="caixa" type="tel" name="telefone" placeholder="(99) 99999-9999" ><br/>
+            <label for="frase">Insira uma frese criativa aqui:</label><br>
+            <input id="frase" class="caixa" type="text" name="frase_criativa" placeholder="Qual frase criativa você gostaria de falar? :)">
+            <br><br><br>
+            <input id="enviar" class="caixa" type="submit" value="Enviar" />
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,#ECBB6B,#CB7E4F);
+} 
+.template{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+}
+.left{
+    float: left;
+    height: 600px;
+    width: 390px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.fig{
+    position: relative;
+    width: 132px;
+    height: 132px;
+    /* border: 2px solid red; */
+    margin: 80px auto 0 auto;
+}
+.rad{
+    position: absolute;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+}
+.circle-1{
+    border-color: #786450 #786450 #786450 transparent;
+    top: -3px;
+    left: -3px;
+    width: 138px;
+    height: 138px;
+    transition: 2s ease-in-out;
+   
+}
+.circle-2{
+    border-color: #786450 transparent #786450 #786450 ;
+    top: -6px;
+    left: -6px;
+    width: 144px;
+    height: 144px;
+    transition: 2s ease-in-out;
+}
+.fig:hover{
+    .circle-1{
+        transform: rotate(360deg);
+    }
+    .circle-2{
+        transform: rotate(-360deg);
+    }
+} 
+.fig img{
+    display: block;
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+}
+.left h1{
+    margin: 40px 0 0 0;
+    color: #786450;
+}
+.left p{
+    margin: 5px 0 80px 0;
+    color: #786450;
+}
+.botao{
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+.botao button{
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color: #786450;
+    border: 2px solid #786450;
+}
+.right{
+    float: right;
+    height: 600px;
+    width: 210px;
+    /* border: 2px solid #001aff;  */
+}
+.bloco{
+    cursor: pointer;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    height: 33.33%;
+    margin-bottom: 1%;
+    background: rgb(243, 212, 193);
+}
+.valor{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgb(56, 43, 30);
+}
+.onde{
+    font-size: 1rem;
+    color: #786450;
+}
+.baixo{
+    position: absolute;
+    height: 35px;
+    width: 700px;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.baixo img{
+    width: 35px;
+}
+.contato:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
