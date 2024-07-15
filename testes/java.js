@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Adiciona a célula do preço, se não for zero
                 const priceCell = document.createElement('td');
                 if (price !== '0') {
-                    priceCell.textContent = `${price}`;
+                    priceCell.textContent = `R$ ${price}`;
                 }
                 row.appendChild(priceCell);
 
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const finalPrice = parseFloat(price) * (1 - parseFloat(discount) / 100);
                 const finalPriceCell = document.createElement('td');
                 if (finalPrice !== parseFloat(price) && finalPrice !== 0 ){
-                    finalPriceCell.textContent = `${finalPrice}`;
+                    finalPriceCell.textContent = `R$ ${finalPrice}`;
                 }
                 
                 row.appendChild(finalPriceCell);
