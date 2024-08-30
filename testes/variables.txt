@@ -1,0 +1,12 @@
+Str=10
+Dex=10
+Con=10
+Int=10
+Wis=10
+Cha=10
+
+Fort=2
+Ref=2
+Will=10
+
+BAB=2
